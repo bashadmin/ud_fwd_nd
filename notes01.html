@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <h2>markup consists of tags and <em>elements</em></em></h2>
-<p>New paragraphs can be made using p tags!</p>
-<p>This is important when you start using css.</p>
+<html lang="en">
+    <head>
+        <title>My Notes</title>
+        <style>
+            p{border: 2px solid green}
+            div{border: 2px solid rgb(59, 59, 223)}
+        </style>
+    </head>
+  <body>
+    <h2>
+        markup consists of tags and <em>elements</em>
+    </h2>
+<p>
+    New paragraphs can be made using p tags!
+</p>
+<p>
+    This is important when you start using css.
+</p>
+<p>
 <sub>Here is some text, testing the sub tag.</sub>
 <sup>Here is some text, now testing the sup tag!</sup>
-<p>Sometimes when doing math you need to use a superscript.<br>They look kinda like this 2<sup>2</sup></sup></p>
-<p>There are other times when you need to use a subscript.<br><br>Like in chemistry when talking about H<sub>2</sub>O.</sup></p>
-<p>You can't put paragraph tags in paragraphs, and little elements can't overlap but can be used togeter.<br><mark><em>Like this!</em></mark>, you got it?</em></mark></p>
-
+</p>
+<p>
+    Sometimes when doing math you need to use a superscript.<br>
+    They look kinda like this 2<sup>2</sup>
+</p>
+<p>
+    There are other times when you need to use a subscript.<br><br>
+    Like in chemistry when talking about H<sub>2</sub>O.
+</p>
+<p>
+    You can't put paragraph tags in paragraphs, and little elements can't overlap but can be used togeter.<br>
+    <mark><em>Like this!</em></mark>, you got it?
+</p>
+<hr>
 <h1>My Chemistry Notes</h1>
-<p><strong>Molecule name:</strong> <em>Sulfur hexafluoride</em></p>
-<p><strong>Molecular formula:</strong> SF<sub>6</sub></p>
-<p><strong>Note:</strong> This gas has a much higher density than air. Basically the opposite of helium. <mark>Crazy!</mark></p>
+<p>
+    <strong>Molecule name:</strong> <em>Sulfur hexafluoride</em>
+</p>
+<p>
+    <strong>Molecular formula:</strong> SF<sub>6</sub>
+</p>
+<p>
+    <strong>Note:</strong> This gas has a much higher density than air. Basically the opposite of helium. <mark>Crazy!</mark>
+</p>
 
 <h1>-----------------------------</h1>
 <h1>My Chemistry Notes</h1>
@@ -26,18 +57,82 @@
     <strong>Note:</strong> This gas has a much higher density than air. Basically the opposite of helium. <mark>Crazy!</mark>
 </p>
 <hr>
-<p>paragraps, lists, headlines, video player, generic block, and table are all block elemements.</p>
-<p>line break, emphasis, highlighting, hypertext link, image, generic inline or span are all linline elements.</p>
+<p>
+    paragraps, lists, headlines, video player, generic block, and table are all block elemements.
+</p>
+<p>
+    line break, emphasis, highlighting, hypertext link, image, generic inline or span are all linline elements.
+</p>
 
-<style>
-    p{border: 2px solid green}
-  </style>
-  
+<p>
   Call me <em>maybe?</em>
   <br><br>
   Just don't call me <strong>late.</strong>
-  
-  <p>Call me Ishmael.</p>
-  <p>Just don't call me late for dinner.</p>
+</p>  
+<p>
+      Call me Ishmael.
+</p>
+<p>
+      Just don't call me late for dinner.
+</p>
+
+<div>
+  <p>
+      Call me Ishmael.
+  </p>
+  <p>
+      Just don't call me late for dinner.
+  </p>
+</div>
+
+
+<ol>
+    <li>ol vs ul
+    <ul>
+        <li>You can nest ul in ol.
+        <li>More information can be here.
+    </ul>
+    <li>When you leave off closing tags, your browser knows.
+    <ul>
+        <li>This works for &lt;p&gt;.
+        <li>This works for &lt;li&gt;, when nested in ol or ul of course.
+    </ul>
+</ol>
+<p>
+    p and li are the two elements you've seen with optional closing tags.
+     And the browser knows there has to be a closing tag when it gets to
+      the start tag of a new element that can't be inside of the last one.
+       For example, when it gets to the start of a new p element, it knows
+        the previous p element must be closed.
+</p>        
+<p>
+  If you don't know something, make sure to <a href="https://www.google.com/">GTS</a> it!
+</p>
+
+
+<a href="https://google.com">
+    <img 
+    src="https://imageio.forbes.com/specials-images/imageserve/603e9a8f4c0ed1e5484fb260/812-GTS-must-be-on-the-bucket-list--It-has-no-peer-/960x0.jpg" 
+    alt="Google!">
+</a>
+<!-- There are some websites that can help you with different sized placeholder images. -->
+<img src="https://placebear.com/100/100" alt="A picture of a bear.">
+
+<img src="https://placekitten.com/200/200" alt="A picture of a kitten.">
+
+<div>
+      My favorite things:
+      <ol>
+        <li><a href="https://en.wikipedia.org/wiki/Bear">Bears</a>
+        <li><a href="https://en.wikipedia.org/wiki/Kitten">Kittens</a>
+      </ol>
+    <img 
+         src="https://placebear.com/150/150"
+         alt="">
+    <img 
+         src="https://placekitten.com/150/150"
+         alt="">
+ </div>
+</body>
 
 </html>
